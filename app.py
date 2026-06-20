@@ -1,5 +1,6 @@
 # Program to count the number of each vowels
 #This code is from Net
+#Edited Code
 # string of vowels
 vowels = 'aeiou'
 
