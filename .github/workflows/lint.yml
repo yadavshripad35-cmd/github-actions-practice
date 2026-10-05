@@ -15,5 +15,9 @@ jobs:
     steps:
       - name: Checkout/Clone the code
         uses: actions/checkout@v7
+      # This step will istall the linter
       - name: Install Linter
         run: pip install ruff
+      # This step will check the Linter
+      - name: Check the files for linting
+        run: ruff check .
